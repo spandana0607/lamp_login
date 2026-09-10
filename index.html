@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Little Lamp - Login & Signup</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+   
+    <input
+        type="checkbox"
+        id="lamp-toggle"
+        class="lamp-toggle"
+    >
+    <main class="room">
+
+        <div class="background-glow"></div>
+
+        <div class="stars">
+
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+
+        </div>
+
+
+        <!-- =========================================
+             TITLE
+        ========================================== -->
+
+        <div class="brand">
+
+            <div class="brand-sparkle">✦</div>
+
+            <h1>Little Lamp</h1>
+
+            <p>
+                A little light for your little world
+            </p>
+
+        </div>
+
+
+        <!-- =========================================
+             MAIN SCENE
+        ========================================== -->
+
+        <section class="scene">
+
+
+            <!-- =====================================
+                 LAMP SECTION
+            ====================================== -->
+
+            <div class="lamp-section">
+
+
+                <!-- Warm glow -->
+
+                <div class="lamp-glow"></div>
+
+
+                <!-- Light particles -->
+
+                <div class="particles">
+
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+
+                </div>
+
+
+                <!-- =================================
+                     LAMP
+                ================================== -->
+
+                <div class="lamp">
+
+
+                    <!-- Lamp shade -->
+
+                    <div class="shade">
+
+                        <div class="shade-rim"></div>
+
+                        <div class="shade-light"></div>
+
+                    </div>
+
+
+                    <!-- Lamp arm -->
+
+                    <div class="lamp-arm"></div>
+
+
+                    <!-- Lamp neck -->
+
+                    <div class="lamp-neck">
+
+                        <div class="neck-joint"></div>
+
+                    </div>
+
+
+                    <!-- Cute lamp head -->
+
+                    <div class="lamp-head">
+
+                        <span class="eye eye-left"></span>
+
+                        <span class="eye eye-right"></span>
+
+                        <span class="smile"></span>
+
+                    </div>
+
+
+                    <!-- Lamp base -->
+
+                    <div class="lamp-base">
+
+                        <div class="base-shine"></div>
+
+                    </div>
+
+
+                    <!-- =================================
+                         CLICKABLE SWITCH
+                    ================================== -->
+
+                    <label
+                        for="lamp-toggle"
+                        class="lamp-switch"
+                        title="Turn lamp on/off"
+                    >
+
+                        <span></span>
+
+                    </label>
+
+                </div>
+
+
+                <!-- =================================
+                     TABLE
+                ================================== -->
+
+                <div class="table">
+
+                    <div class="table-top"></div>
+
+                    <div class="table-front"></div>
+
+
+                    <!-- Plant -->
+
+                    <div class="plant">
+
+                        <div class="pot"></div>
+
+                        <span class="leaf leaf-one"></span>
+                        <span class="leaf leaf-two"></span>
+                        <span class="leaf leaf-three"></span>
+                        <span class="leaf leaf-four"></span>
+
+                    </div>
+
+
+                    <!-- Cup -->
+
+                    <div class="cup">
+
+                        <div class="cup-handle"></div>
+
+                        <div class="coffee"></div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- =====================================
+                 AUTH CARD
+            ====================================== -->
+
+            <div class="auth-wrapper">
+
+
+                <div class="auth-card">
+
+
+                    <!-- =================================
+                         LOGIN FACE
+                    ================================== -->
+
+                    <div class="auth-face login-face">
+
+
+                        <!-- Corner decoration -->
+
+                        <span class="circle-decoration one"></span>
+                        <span class="circle-decoration two"></span>
+
+
+                        <!-- Icon -->
+
+                        <div class="auth-icon">
+                            💡
+                        </div>
+
+
+                        <!-- Small heading -->
+
+                        <span class="eyebrow">
+                            LIGHT IS ON
+                        </span>
+
+
+                        <!-- Main title -->
+
+                        <h2>
+                            Welcome
+                            <span>back!</span>
+                        </h2>
+
+
+                        <p class="subtitle">
+                            Your cozy little space is waiting for you.
+                        </p>
+
+
+                        <!-- Login form -->
+
+                        <form>
+
+
+                            <!-- Email -->
+
+                            <div class="field">
+
+                                <label>
+                                    Email address
+                                </label>
+
+                                <div class="input-wrapper">
+
+                                    <span class="input-icon">
+                                        ♡
+                                    </span>
+
+                                    <input
+                                        type="email"
+                                        placeholder="you@example.com"
+                                        required
+                                    >
+
+                                </div>
+
+                            </div>
+
+
+                            <!-- Password -->
+
+                            <div class="field">
+
+                                <label>
+                                    Password
+                                </label>
+
+                                <div class="input-wrapper">
+
+                                    <span class="input-icon">
+                                        ☾
+                                    </span>
+
+                                    <input
+                                        type="password"
+                                        placeholder="Enter your password"
+                                        required
+                                    >
+
+                                </div>
+
+                            </div>
+
+
+                            <!-- Options -->
+
+                            <div class="options">
+
+                                <label class="remember">
+
+                                    <input type="checkbox">
+
+                                    <span>
+                                        Remember me
+                                    </span>
+
+                                </label>
+
+                                <a href="#">
+                                    Forgot password?
+                                </a>
+
+                            </div>
+
+
+                            <!-- Button -->
+
+                            <button
+                                type="submit"
+                                class="main-button"
+                            >
+
+                                <span>
+                                    Enter My Space
+                                </span>
+
+                                <b>
+                                    →
+                                </b>
+
+                            </button>
+
+
+                        </form>
+
+
+                        <!-- Bottom hint -->
+
+                        <div class="bottom-hint">
+
+                            <span>
+                                🌙 Turn off the lamp
+                            </span>
+
+                            <small>
+                                to create an account
+                            </small>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <!-- =================================
+                         SIGNUP FACE
+                    ================================== -->
+
+                    <div class="auth-face signup-face">
+
+
+                        <!-- Decorations -->
+
+                        <span class="circle-decoration one"></span>
+                        <span class="circle-decoration two"></span>
+
+
+                        <!-- Icon -->
+
+                        <div class="auth-icon signup-icon">
+                            🌙
+                        </div>
+
+
+                        <!-- Eyebrow -->
+
+                        <span class="eyebrow">
+                            LIGHT IS OFF
+                        </span>
+
+
+                        <!-- Main title -->
+
+                        <h2>
+                            Create your
+                            <span>little space</span>
+                        </h2>
+
+
+                        <p class="subtitle">
+                            A warm little corner made just for you.
+                        </p>
+
+
+                        <!-- Signup -->
+
+                        <form>
+
+
+                            <!-- Name -->
+
+                            <div class="field">
+
+                                <label>
+                                    Your name
+                                </label>
+
+                                <div class="input-wrapper">
+
+                                    <span class="input-icon">
+                                        ♡
+                                    </span>
+
+                                    <input
+                                        type="text"
+                                        placeholder="Your lovely name"
+                                        required
+                                    >
+
+                                </div>
+
+                            </div>
+
+
+                            <!-- Email -->
+
+                            <div class="field">
+
+                                <label>
+                                    Email address
+                                </label>
+
+                                <div class="input-wrapper">
+
+                                    <span class="input-icon">
+                                        ✉
+                                    </span>
+
+                                    <input
+                                        type="email"
+                                        placeholder="you@example.com"
+                                        required
+                                    >
+
+                                </div>
+
+                            </div>
+
+
+                            <!-- Password -->
+
+                            <div class="field">
+
+                                <label>
+                                    Create password
+                                </label>
+
+                                <div class="input-wrapper">
+
+                                    <span class="input-icon">
+                                        ☁
+                                    </span>
+
+                                    <input
+                                        type="password"
+                                        placeholder="Choose a password"
+                                        required
+                                    >
+
+                                </div>
+
+                            </div>
+
+
+                            <!-- Button -->
+
+                            <button
+                                type="submit"
+                                class="main-button signup-button"
+                            >
+
+                                <span>
+                                    Create My Space
+                                </span>
+
+                                <b>
+                                    ♡
+                                </b>
+
+                            </button>
+
+
+                        </form>
+
+
+                        <!-- Bottom hint -->
+
+                        <div class="bottom-hint">
+
+                            <span>
+                                💡 Turn on the lamp
+                            </span>
+
+                            <small>
+                                to go back to login
+                            </small>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================================
+             FOOTER
+        ========================================== -->
+
+        <footer>
+
+            <span>✦</span>
+
+            Made with a little light & lots of love
+
+            <span>✦</span>
+
+        </footer>
+
+    </main>
+
+</body>
+</html>
