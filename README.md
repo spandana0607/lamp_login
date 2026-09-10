@@ -11,7 +11,7 @@ The entire experience is created using **HTML and CSS**, including the animated 
 
 ## ✨ Live Demo
 
-🔗 **Live Demo:** Add your deployed website link here
+🔗 **Live Demo:https://spandana0607.github.io/lamp_login/
 
 ## 📸 Project Preview
 
@@ -292,7 +292,7 @@ little-lamp/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/little-lamp.git
+git clone https://github.com/spandana0607/little-lamp.git
 ```
 
 ### 2. Open the project
